@@ -17,7 +17,7 @@ def load_config():
     config = configparser.ConfigParser()
 
     # Read configuration from config.ini file
-    config.read('config_lblm.ini')
+    config.read('config.ini')
     return config
 
 # fetch all users from Tableau Server
